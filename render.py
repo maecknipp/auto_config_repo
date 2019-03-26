@@ -47,4 +47,9 @@ while True:
             device.discard_config()
 
         sleep(60)
-        
+
+#1. git add config.yml
+#2. git add render.py
+#3. git add template.j2
+#4. git -m commit "Version V1.x"
+#5. git push origin master
