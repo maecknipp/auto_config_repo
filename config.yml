@@ -1,4 +1,5 @@
 - hostname: csr1000vpython01
+  connection_address: 10.3.255.101
   domain-name: vpbank.net
   username: python
   password: cisco
@@ -9,6 +10,26 @@
       description: Interface Gi0
       subnet_mask: 255.255.255.0
       ip_address: 10.3.255.101
+      negotiation: auto
+    loopback:
+    - name: Loopback100
+      description: Interface Loopback100
+      ip_address: 10.3.254.101
+      subnet_mask: 255.255.255.0
+
+
+- hostname: csr1000vpython06
+  connection_address: 10.3.255.106
+  domain-name: vpbank.net
+  username: python
+  password: cisco
+  netconf_enabled: true
+  interfaces:
+    ethernet:
+    - name: GigabitEthernet1
+      description: Interface Gi0
+      subnet_mask: 255.255.255.0
+      ip_address: 10.3.255.106
       negotiation: auto
     loopback:
     - name: Loopback100
