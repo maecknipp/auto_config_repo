@@ -34,5 +34,5 @@
     loopback:
     - name: Loopback100
       description: Interface Loopback100
-      ip_address: 10.3.254.101
+      ip_address: 10.3.254.106
       subnet_mask: 255.255.255.0

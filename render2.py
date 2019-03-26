@@ -4,7 +4,7 @@ import napalm
 import json
 from time import sleep
 
-#Gleich wie render aber mit Funktionen!
+#Gleich wie render aber mit Funktionen/ sollte einfacher sein als render.py
 def enforce_config_on_device(device, template):
     router_ip = device["connection_address"]
     rendered_config = template.render(**device)
