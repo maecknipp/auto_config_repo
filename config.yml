@@ -1,4 +1,5 @@
 - hostname: csr1000vpython01
+  domain-name: vpbank.net
   username: python
   password: cisco
   netconf_enabled: true

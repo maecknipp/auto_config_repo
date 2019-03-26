@@ -4,7 +4,6 @@ import napalm
 import json
 from time import sleep
 
-
 #Script wird alle 60s ausgeführt
 while True:
 
